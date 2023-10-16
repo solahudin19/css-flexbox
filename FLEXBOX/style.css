@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat' sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    background-color: rgb(49, 49, 226);
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    color: blanchedalmond;
+    height: 50px;
+    align-items: center;
+}
+
+nav .logo {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: blanchedalmond;
